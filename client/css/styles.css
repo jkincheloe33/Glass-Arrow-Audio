@@ -14,7 +14,7 @@ html, body {
 }
 
 .nav-container.show {
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.980);
 }
 
 .transition {
@@ -103,7 +103,14 @@ html, body {
 
 .jumbotron-about p {
     text-align: center;
-    color: rgb(185, 185, 185);
+    background: -webkit-linear-gradient(top,
+        rgba(222, 182, 255, 0.6),
+        rgba(255, 177, 255, 0.8));
+    background: linear-gradient(top,
+        rgba(222, 182, 255, 0.6),
+        rgba(255, 177, 255, 0.8));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 
