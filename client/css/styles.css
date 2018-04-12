@@ -39,12 +39,12 @@ html, body {
 
 .jumbotron-header {
     background: linear-gradient(
-        rgba(243, 214, 51, 0.219),
-        rgba(243, 214, 51, 0.219)
+        rgba(157, 51, 243, 0.600),
+        rgba(243, 51, 243, 0.600)
       ),
-      url('http://deskbg.com/i/c/1440x900/wpp/21/21651/goat-mountains-desktop-background.jpg');
+      url('http://blog.discmakers.com/wp-content/uploads/2015/07/Hybrid-Studios-Control-Room-sm.jpg');
       background-size: cover;
-      height: 75vh;
+      height: 100vh;
       position: relative;
 }
 
@@ -60,7 +60,7 @@ html, body {
 
 .jumbotron-header h1, .jumbotron-header p {
     text-align: center;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.767);
 }
 
 .jumbotron-header h1 {
