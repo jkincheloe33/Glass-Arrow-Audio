@@ -11,7 +11,7 @@ class Home extends Component {
     render() {
         return (
             <Fragment>
-                <h1>Hello World!</h1>;
+                {/* <h1>Hello World!</h1>; */}
                 <About />
             </Fragment>
         );

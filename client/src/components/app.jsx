@@ -13,7 +13,7 @@ class Navigation extends Component {
                 <Fragment>
                     <Navbar />
                     <Header />
-                    <Link to="/goodbye">Goodbye</Link>
+                    {/* <Link to="/goodbye">Goodbye</Link> */}
                     <Switch>
                         <Route exact path="/" component={Home} />
                         {/* <Route path="/goodbye" component={GoodbyeWorld} /> */}

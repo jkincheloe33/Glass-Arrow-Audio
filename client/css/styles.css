@@ -58,16 +58,42 @@ html, body {
     text-align: center;
 }
 
-.jumbotron-header h1, .jumbotron-header p {
+.jumbotron-header h1, .jumbotron-header p, .jumbotron-about h1, .jumbotron-about p {
     text-align: center;
     color: rgba(255, 255, 255, 0.767);
 }
 
-.jumbotron-header h1 {
+.jumbotron-header h1, .jumbotron-about h1 {
     font-weight: 700;
 }
 
+/**************************************
+*
+* ABOUT
+*
+***************************************/
 
+.jumbotron-about {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.900),
+        rgba(0, 0, 0, 0.900)
+      ),
+      url('https://static1.squarespace.com/static/57068217a3360c1932710792/t/570e7f0d22482ed7fde3e983/1460567824946/soundboard-wawradio.jpg?format=1500w');
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+}
+
+.about-container {
+    padding: 5px, 0px, 5px, 0px;
+    width: 75%;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
 
 
 
