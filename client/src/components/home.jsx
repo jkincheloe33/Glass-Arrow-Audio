@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { render } from 'react-dom';
 import About from './about';
+import Services from './services';
 
 class Home extends Component {
 
@@ -11,8 +12,8 @@ class Home extends Component {
     render() {
         return (
             <Fragment>
-                {/* <h1>Hello World!</h1>; */}
                 <About />
+                <Services />
             </Fragment>
         );
     }

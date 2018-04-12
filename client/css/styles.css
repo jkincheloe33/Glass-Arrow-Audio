@@ -98,11 +98,6 @@ html, body {
 
 .jumbotron-about h1 {
     text-align: center;
-    color: white;
-}
-
-.jumbotron-about p {
-    text-align: center;
     background: -webkit-linear-gradient(top,
         rgba(222, 182, 255, 0.6),
         rgba(255, 177, 255, 0.8));
@@ -111,6 +106,38 @@ html, body {
         rgba(255, 177, 255, 0.8));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.jumbotron-about p {
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(189, 189, 189);
+}
+
+/**************************************
+*
+* SERVICES
+*
+***************************************/
+
+.services-container {
+    background-color: gray;
+    padding: 5px;
+    min-height: 75vh;
+    position: relative;
+}
+
+.services-row {
+    padding: 5px, 0px, 5px, 0px;
+    /* position: absolute;
+    top: 50%;
+    left:50%; */
+    /* transform: translate(-50%,-50%); */
+    text-align: center;
+}
+
+.services-body {
+    padding: 15px 0px 15px 0px;
 }
 
 
