@@ -40,7 +40,7 @@ html, body {
 .jumbotron-header {
     background: linear-gradient(
         rgba(157, 51, 243, 0.600),
-        rgba(243, 51, 243, 0.600)
+        rgba(243, 51, 243, 0.800)
       ),
       url('http://blog.discmakers.com/wp-content/uploads/2015/07/Hybrid-Studios-Control-Room-sm.jpg');
       background-size: cover;
@@ -58,7 +58,7 @@ html, body {
     text-align: center;
 }
 
-.jumbotron-header h1, .jumbotron-header p, .jumbotron-about h1, .jumbotron-about p {
+.jumbotron-header h1, .jumbotron-header p {
     text-align: center;
     color: rgba(255, 255, 255, 0.767);
 }
@@ -93,6 +93,16 @@ html, body {
     left:50%;
     transform: translate(-50%,-50%);
     text-align: center;
+}
+
+.jumbotron-about h1 {
+    text-align: center;
+    color: white;
+}
+
+.jumbotron-about p {
+    text-align: center;
+    color: rgb(185, 185, 185);
 }
 
 
