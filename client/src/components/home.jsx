@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { render } from 'react-dom';
 import About from './about';
 import Services from './services';
+import Work from './work';
 
 class Home extends Component {
 
@@ -14,6 +15,7 @@ class Home extends Component {
             <Fragment>
                 <About />
                 <Services />
+                <Work />
             </Fragment>
         );
     }
