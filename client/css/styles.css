@@ -122,7 +122,18 @@ html, body {
 
 .services-container {
     background-color: gray;
+    background:
+      url('../img/bg-pattern.png');
     padding: 5px;
+}
+
+.services-title {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.services-title h1 {
+    text-align: center;
 }
 
 .services-row {

@@ -9,6 +9,9 @@ class Services extends Component {
     render() {
         return (
             <div className="services-container">
+                <div className="services-title">
+                    <h1 className="display-4">Studio Services We Provide</h1>
+                </div>
                 <div className="row services-row">
                     <div className="col-sm-6 col-md-3 col-xl-3">
                         <div className="">
