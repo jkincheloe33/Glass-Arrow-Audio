@@ -12,12 +12,36 @@ class Work extends Component {
             <div className="work-container">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-9">
-                            hello
-                    </div>
-                        <div className="col-md-3">
-                            hello
-                    </div>
+                        <div className="col-md-4">
+                            <h1>Our Artists</h1>
+                            <p>These are our some of our featured artists. You can check out more of our work by hitting the button below.</p>
+                            <button type="button" className="btn btn-dark">
+                                Listen
+                            </button>
+                        </div>
+                        <div className="col-md-8">
+                            <div className="row">
+                                <div className="col-xs-6 col-sm-4 work-discography">
+                                    <img src="../../img/Misery_2.jpg" />
+                                </div>
+                                <div className="col-xs-6 col-sm-4 work-discography">
+                                    <img src="../../img/Misery_2.jpg" />
+                                </div>
+                                <div className="col-xs-6 col-sm-4 work-discography">
+                                    <img src="../../img/Misery_2.jpg" />
+                                </div>
+                                <div className="col-xs-6 col-sm-4 work-discography">
+                                    <img src="../../img/Misery_2.jpg" />
+                                </div>
+                                <div className="col-xs-6 col-sm-4 work-discography">
+                                    <img src="../../img/Misery_2.jpg" />
+                                </div>
+                                <div className="col-xs-6 col-sm-4 work-discography">
+                                    <img src="../../img/Misery_2.jpg" />
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

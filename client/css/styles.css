@@ -146,8 +146,38 @@ html, body {
     padding: 15px 0px 15px 0px;
 }
 
+/**************************************
+*
+* WORK
+*
+***************************************/
 
+.work-container {
+    padding-top: 50px;
+    background: black;
+    color: whitesmoke;
+}
 
+.work-container h1 {
+    background: -webkit-linear-gradient(top,
+        rgba(222, 182, 255, 0.6),
+        rgba(255, 177, 255, 0.8));
+    background: linear-gradient(top,
+        rgba(222, 182, 255, 0.6),
+        rgba(255, 177, 255, 0.8));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.work-discography {
+    padding: 4px;
+    text-align: center;
+}
+
+.work-discography img {
+    width: 100%;
+}
 
 
 
