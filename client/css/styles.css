@@ -154,6 +154,7 @@ html, body {
 
 .work-container {
     padding-top: 50px;
+    padding-bottom: 50px;
     background: black;
     color: whitesmoke;
 }
@@ -230,9 +231,20 @@ html, body {
     color: white;
 }
 
+/**************************************
+*
+* FOOTER
+*
+***************************************/
 
+.footer-wrapper {
+    background: rgb(61, 61, 61);
+}
 
-
+.footer-container {
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+}
 
 
 

@@ -4,6 +4,7 @@ import About from './about';
 import Services from './services';
 import Work from './work';
 import Contact from './contact';
+import Footer from './footer';
 
 class Home extends Component {
 
@@ -18,6 +19,7 @@ class Home extends Component {
                 <Services />
                 <Work />
                 <Contact />
+                <Footer />
             </Fragment>
         );
     }
