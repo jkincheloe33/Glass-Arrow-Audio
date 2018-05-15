@@ -185,14 +185,52 @@ html, body {
 *
 ***************************************/
 
-.contact-container {
+.jumbotron-contact {
     background: linear-gradient(
-        rgba(0, 0, 0, 0.900),
-        rgba(0, 0, 0, 0.900)
+        rgba(157, 51, 243, 0.600),
+        rgba(243, 51, 243, 0.800)
       ),
       url('../img/toledo.jpg');
       background-size: cover;
+      height: 100vh;
+      position: relative;
 }
+
+.contact-container {
+    padding: 5px;
+    width: 75%;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.jumbotron-contact h1, .jumbotron-contact p {
+    text-align: center;
+}
+
+.jumbotron-contact h1{
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+.jumbotron-contact p {
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.967);
+}
+
+.social-icons {
+    padding: 3px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: white;
+}
+
+
 
 
 
