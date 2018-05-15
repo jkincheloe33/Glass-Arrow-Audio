@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import About from './about';
 import Services from './services';
 import Work from './work';
+import Contact from './contact';
 
 class Home extends Component {
 
@@ -16,6 +17,7 @@ class Home extends Component {
                 <About />
                 <Services />
                 <Work />
+                <Contact />
             </Fragment>
         );
     }

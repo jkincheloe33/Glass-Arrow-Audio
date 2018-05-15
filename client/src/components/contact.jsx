@@ -9,12 +9,12 @@ class Contact extends Component {
     render() {
         return (
 
-            <div className="container">
+            <div className="container contact-container">
                 <div className="row">
-                    <div className="col-md-7" id="map">
+                    <div className="col-md-6 contact-image">
 
                     </div>
-                    <div className="col-md-5">
+                    <div className="col-md-6">
 
                     </div>
                 </div>
@@ -23,3 +23,5 @@ class Contact extends Component {
     }
 
 }
+
+export default Contact;
