@@ -16,9 +16,9 @@ class Work extends Component {
                             <div className="col-md-4">
                                 <h1>Our Artists</h1>
                                 <p>These are our some of our featured artists. You can check out more of our work by hitting the button below.</p>
-                                <button type="button" className="btn btn-dark">
+                                <a href="https://open.spotify.com/user/1232303350/playlist/43M59KE4JAAAV349MDVcPq?si=Bn31GrngSDmIzcqQaob7gQ" target="_blank" className="btn btn-dark">
                                     Listen
-                                </button>
+                                </a>
                             </div>
                             <div className="col-md-8">
                                 <div className="row">
@@ -26,19 +26,19 @@ class Work extends Component {
                                         <img src="../../img/Misery_2.jpg" />
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <img src="../../img/Misery_2.jpg" />
+                                        <img src="../../img/cityoftheweak.jpg" />
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <img src="../../img/Misery_2.jpg" />
+                                        <img src="../../img/marinacity.jpg" />
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <img src="../../img/Misery_2.jpg" />
+                                        <img src="../../img/dependence.jpeg" />
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <img src="../../img/Misery_2.jpg" />
+                                        <img src="../../img/sylvn.jpg" />
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <img src="../../img/Misery_2.jpg" />
+                                        <img src="../../img/inyourmemory.jpeg" />
                                     </div>
                                 </div>
                             </div>
