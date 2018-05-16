@@ -13,7 +13,7 @@ class Contact extends Component {
                     <h1 className="display-3">Hit us up!</h1>
                     <p className="">Interested in learning more? Shoot us an email and we can chat about your ideas and vision.
                     </p>
-                    <a className="btn btn-outline-light w-25" href="#" role="button">Email Us!</a>
+                    <a className="btn btn-outline-light" href="#" role="button">Email Us!</a>
                     <div className="container">
                         <div className="row d-flex justify-content-center mt-3">
                             <div className="col-xs-3 social-icons">

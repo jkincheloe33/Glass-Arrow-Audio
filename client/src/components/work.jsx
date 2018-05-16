@@ -21,22 +21,22 @@ class Work extends Component {
                         </div>
                         <div className="col-md-8">
                             <div className="row">
-                                <div className="col-xs-6 col-sm-4 work-discography">
+                                <div className="col-xs-5 col-sm-4 work-discography">
                                     <img src="../../img/Misery_2.jpg" />
                                 </div>
-                                <div className="col-xs-6 col-sm-4 work-discography">
+                                <div className="col-xs-5 col-sm-4 work-discography">
                                     <img src="../../img/Misery_2.jpg" />
                                 </div>
-                                <div className="col-xs-6 col-sm-4 work-discography">
+                                <div className="col-xs-5 col-sm-4 work-discography">
                                     <img src="../../img/Misery_2.jpg" />
                                 </div>
-                                <div className="col-xs-6 col-sm-4 work-discography">
+                                <div className="col-xs-5 col-sm-4 work-discography">
                                     <img src="../../img/Misery_2.jpg" />
                                 </div>
-                                <div className="col-xs-6 col-sm-4 work-discography">
+                                <div className="col-xs-5 col-sm-4 work-discography">
                                     <img src="../../img/Misery_2.jpg" />
                                 </div>
-                                <div className="col-xs-6 col-sm-4 work-discography">
+                                <div className="col-xs-5 col-sm-4 work-discography">
                                     <img src="../../img/Misery_2.jpg" />
                                 </div>
                             </div>
