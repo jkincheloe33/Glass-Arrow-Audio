@@ -28,7 +28,7 @@ class Navbar extends Component {
         return (
             <nav ref={(nav) => { this.nav = nav; }} className="animated slideInDown nav-container transition navbar navbar-expand-md navbar-light fixed-top">
                 <a className="navbar-brand" href="/">
-                    <img src="https://cdn.iconscout.com/public/images/icon/premium/png-512/mice-voice-recording-recorder-3108fd28c9671232-512x512.png" width="30" height="30" className="d-inline-block align-top" alt="" />
+                    <img src="../../img/logo.png" width="33" height="30" className="d-inline-block align-top pr-1" alt="" />
                     Glass Arrow Audio
                     </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,18 +36,18 @@ class Navbar extends Component {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
 
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link animated custom-nav-link" href="#about">About</a>
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-item">
+                            <a className="nav-link animated custom-nav-link" href="#about">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link animated custom-nav-link" href="#services">Services</a>
+                        <li className="nav-item">
+                            <a className="nav-link animated custom-nav-link" href="#services">Services</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link animated custom-nav-link" href="#artists">Artists</a>
+                        <li className="nav-item">
+                            <a className="nav-link animated custom-nav-link" href="#artists">Artists</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link animated custom-nav-link" href="#contact">Contact</a>
+                        <li className="nav-item">
+                            <a className="nav-link animated custom-nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
 
