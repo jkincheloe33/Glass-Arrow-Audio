@@ -23,40 +23,52 @@ class Work extends Component {
                             <div className="col-md-8">
                                 <div className="row">
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <img src="../../img/Misery_2.jpg" />
-                                        <div className="work-text-wrapper">
-                                            <div className="work-text">Glasslands</div>
-                                        </div>
+                                        <a href="http://glasslands.co" target="_blank">
+                                            <img src="../../img/Misery_2.jpg" />
+                                            <div className="work-text-wrapper">
+                                                <div className="work-text">Glasslands</div>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <img src="../../img/cityoftheweak.jpg" />
-                                        <div className="work-text-wrapper">
-                                            <div className="work-text">City Of The Weak</div>
-                                        </div>
+                                        <a href="http://facebook.com/cityoftheweak" target="_blank">
+                                            <img src="../../img/cityoftheweak.jpg" />
+                                            <div className="work-text-wrapper">
+                                                <div className="work-text">City Of The Weak</div>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <img src="../../img/marinacity.jpg" />
-                                        <div className="work-text-wrapper">
-                                            <div className="work-text">Marina City</div>
-                                        </div>
+                                        <a href="http://http://www.marinacityband.com/" target="_blank">
+                                            <img src="../../img/marinacity.jpg" />
+                                            <div className="work-text-wrapper">
+                                                <div className="work-text">Marina City</div>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <img src="../../img/dependence.jpeg" />
-                                        <div className="work-text-wrapper">
-                                            <div className="work-text">Dependence</div>
-                                        </div>
+                                        <a href="http://facebook.com/dependenceband" target="_blank">
+                                            <img src="../../img/dependence.jpeg" />
+                                            <div className="work-text-wrapper">
+                                                <div className="work-text">Dependence</div>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <img src="../../img/sylvn.jpg" />
-                                        <div className="work-text-wrapper">
-                                            <div className="work-text">Sylvn</div>
-                                        </div>
+                                        <a href="http://www.sylvnnoise.com/" target="_blank">
+                                            <img src="../../img/sylvn.jpg" />
+                                            <div className="work-text-wrapper">
+                                                <div className="work-text">Sylvn</div>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <img src="../../img/inyourmemory.jpeg" />
-                                        <div className="work-text-wrapper">
-                                            <div className="work-text">In Your Memory</div>
-                                        </div>
+                                        <a href="http://http://www.iymofficial.com/" target="_blank">
+                                            <img src="../../img/inyourmemory.jpeg" />
+                                            <div className="work-text-wrapper">
+                                                <div className="work-text">In Your Memory</div>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
