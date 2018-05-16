@@ -24,7 +24,7 @@ html, body {
     transition: all .5s ease-in-out;
 }
 
-.nav-button:hover {
+.custom-nav-link:hover {
     -webkit-animation-name: pulse;
     animation-name: pulse;
 }

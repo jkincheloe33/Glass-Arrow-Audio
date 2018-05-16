@@ -38,16 +38,16 @@ class Navbar extends Component {
 
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link animated custom-nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
+                            <a class="nav-link animated custom-nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#artists">Artists</a>
+                            <a class="nav-link animated custom-nav-link" href="#artists">Artists</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link animated custom-nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
 
