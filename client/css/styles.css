@@ -174,11 +174,39 @@ html, body {
 .work-discography {
     padding: 4px;
     text-align: center;
+    position: relative;
 }
 
 .work-discography img {
     width: 100%;
 }
+
+.work-discography:hover img {
+    opacity: 0.2;
+}
+
+.work-discography:hover .work-text-wrapper {
+    opacity: 1;
+}
+
+.work-text-wrapper {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .work-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
 
 /**************************************
 *

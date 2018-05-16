@@ -15,30 +15,48 @@ class Work extends Component {
                         <div className="row">
                             <div className="col-md-4">
                                 <h1>Our Artists</h1>
-                                <p>These are our some of our featured artists. You can check out more of our work by hitting the button below.</p>
+                                <p>These are our some of our featured artists. You can check out more of our work on our Spotify playlist.</p>
                                 <a href="https://open.spotify.com/user/1232303350/playlist/43M59KE4JAAAV349MDVcPq?si=Bn31GrngSDmIzcqQaob7gQ" target="_blank" className="btn btn-dark">
-                                    Listen
+                                    Spotify
                                 </a>
                             </div>
                             <div className="col-md-8">
                                 <div className="row">
                                     <div className="col-xs-5 col-sm-4 work-discography">
                                         <img src="../../img/Misery_2.jpg" />
+                                        <div className="work-text-wrapper">
+                                            <div className="work-text">Glasslands</div>
+                                        </div>
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
                                         <img src="../../img/cityoftheweak.jpg" />
+                                        <div className="work-text-wrapper">
+                                            <div className="work-text">City Of The Weak</div>
+                                        </div>
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
                                         <img src="../../img/marinacity.jpg" />
+                                        <div className="work-text-wrapper">
+                                            <div className="work-text">Marina City</div>
+                                        </div>
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
                                         <img src="../../img/dependence.jpeg" />
+                                        <div className="work-text-wrapper">
+                                            <div className="work-text">Dependence</div>
+                                        </div>
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
                                         <img src="../../img/sylvn.jpg" />
+                                        <div className="work-text-wrapper">
+                                            <div className="work-text">Sylvn</div>
+                                        </div>
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
                                         <img src="../../img/inyourmemory.jpeg" />
+                                        <div className="work-text-wrapper">
+                                            <div className="work-text">In Your Memory</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
