@@ -42,7 +42,8 @@ html, body {
         rgba(157, 51, 243, 0.600),
         rgba(243, 51, 243, 0.800)
       ),
-      url('http://blog.discmakers.com/wp-content/uploads/2015/07/Hybrid-Studios-Control-Room-sm.jpg');
+      url('../img/glasslands2.jpg');
+      /* url('http://blog.discmakers.com/wp-content/uploads/2015/07/Hybrid-Studios-Control-Room-sm.jpg'); */
       background-size: cover;
       height: 100vh;
       position: relative;
@@ -144,6 +145,10 @@ html, body {
 
 .services-body {
     padding: 15px 0px 15px 0px;
+}
+
+.services-item {
+    visibility: hidden;
 }
 
 /**************************************

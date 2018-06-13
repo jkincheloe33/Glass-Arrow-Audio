@@ -6,6 +6,25 @@ class Services extends Component {
         super(props);
     }
 
+    // componentDidMount() {
+    //     let scroll = 0;
+    //     window.addEventListener('scroll', () => {
+    //         let scrollY = window.scrollY;
+    //         if (scroll > 100 && scrollY > 100) {
+    //             return;
+    //         } else if (scroll <= 100 && scrollY <= 100) {
+    //             return;
+    //         }
+
+    //         scroll = scrollY;
+    //         if (scroll > 100) {
+    //             this.services.classList.add("show");
+    //         } else {
+    //             this.services.classList.remove("show");
+    //         }
+    //     });
+    // }
+
     render() {
         return (
             <Fragment>
@@ -16,8 +35,10 @@ class Services extends Component {
                     </div>
                     <div className="container">
                         <div className="row services-row">
-                            <div className="col-sm-6 col-md-3 col-xl-3">
-                                <div className="">
+                            <div className="col-sm-6 col-md-3 col-xl-3 services-item">
+                                <div
+                                    // ref={(services) => { this.services = services; }}
+                                    className="">
                                     <img className="" src="../../img/mic.png" width="125" height="125" alt="Card image cap" />
                                     <div className="card-body">
                                         <h3 className="card-title">Tracking</h3>
