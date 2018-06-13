@@ -18,9 +18,15 @@ class Services extends Component {
 
             scroll = scrollY;
             if (scroll > 855) {
-                this.services.classList.add("slideInDown", "load");
+                this.services.classList.add("slideInUp", "load");
+                this.servicesTwo.classList.add("slideInUp", "load");
+                this.servicesThree.classList.add("slideInUp", "load");
+                this.servicesFour.classList.add("slideInUp", "load");
             } else {
-                this.services.classList.remove("slideInDown", "load");
+                this.services.classList.remove("slideInUp", "load");
+                this.servicesTwo.classList.remove("slideInUp", "load");
+                this.servicesThree.classList.remove("slideInUp", "load");
+                this.servicesFour.classList.remove("slideInUp", "load");
             }
         });
     }
@@ -38,7 +44,7 @@ class Services extends Component {
                             <div className="col-sm-6 col-md-3 col-xl-3">
                                 <div
                                     ref={(services) => { this.services = services; }}
-                                    className="services-item animated">
+                                    className="services-item animatedTwo">
                                     <img className="" src="../../img/mic.png" width="125" height="125" alt="Card image cap" />
                                     <div className="card-body">
                                         <h3 className="card-title">Tracking</h3>
@@ -46,7 +52,9 @@ class Services extends Component {
                                 </div>
                             </div>
                             <div className="col-sm-6 col-md-3 col-xl-3">
-                                <div className="">
+                                <div
+                                    ref={(servicesTwo) => { this.servicesTwo = servicesTwo; }}
+                                    className="services-item animated">
                                     <img className="" src="../../img/mixing2.png" width="125" height="125" alt="Card image cap" />
                                     <div className="card-body">
                                         <h3 className="card-title">Mixing</h3>
@@ -54,7 +62,9 @@ class Services extends Component {
                                 </div>
                             </div>
                             <div className="col-sm-6 col-md-3 col-xl-3">
-                                <div className="">
+                                <div
+                                    ref={(servicesThree) => { this.servicesThree = servicesThree; }}
+                                    className="services-item animatedThree">
                                     <img className="" src="../../img/vinyl.png" width="125" height="125" alt="Card image cap" />
                                     <div className="card-body">
                                         <h3 className="card-title">Mastering</h3>
@@ -62,7 +72,9 @@ class Services extends Component {
                                 </div>
                             </div>
                             <div className="col-sm-6 col-md-3 col-xl-3">
-                                <div className="">
+                                <div
+                                    ref={(servicesFour) => { this.servicesFour = servicesFour; }}
+                                    className="services-item animatedFour">
                                     <img className="" src="../../img/speaker.png" width="125" height="125" alt="Card image cap" />
                                     <div className="card-body">
                                         <h3 className="card-title">Production</h3>
