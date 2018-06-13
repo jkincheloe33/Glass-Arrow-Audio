@@ -39,7 +39,7 @@ class Work extends Component {
                                         </a>
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <a href="http://http://www.marinacityband.com/" target="_blank">
+                                        <a href="http://www.marinacityband.com/" target="_blank">
                                             <img src="../../img/marinacity.jpg" />
                                             <div className="work-text-wrapper">
                                                 <div className="work-text">Marina City</div>
@@ -63,7 +63,7 @@ class Work extends Component {
                                         </a>
                                     </div>
                                     <div className="col-xs-5 col-sm-4 work-discography">
-                                        <a href="http://http://www.iymofficial.com/" target="_blank">
+                                        <a href="http://www.iymofficial.com/" target="_blank">
                                             <img src="../../img/inyourmemory.jpeg" />
                                             <div className="work-text-wrapper">
                                                 <div className="work-text">In Your Memory</div>
